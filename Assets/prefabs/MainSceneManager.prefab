@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1263902550082748}
+  m_IsPrefabParent: 1
+--- !u!1 &1263902550082748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4906610270442794}
+  - component: {fileID: 114426559993829980}
+  - component: {fileID: 114979020812311998}
+  m_Layer: 0
+  m_Name: MainSceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4906610270442794
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263902550082748}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114426559993829980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263902550082748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543b74f5608c69c4ca595a7cab277280, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitialPlayerHealth: 10
+  Score: 0
+--- !u!114 &114979020812311998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263902550082748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2fad1484353dda40baefb5c7cc13aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1112323079475036, guid: c131acdb3cfbb774b893e82c2957f754, type: 2}
+  deathCamera: {fileID: 1496054232762804, guid: f2b995e39471fbb43994c4214214141a,
+    type: 2}
+  pauseCamera: {fileID: 1199344883583554, guid: fe457e9c7179662438deaddfb6bbc3c8,
+    type: 2}
+  pauseCameraScript: {fileID: 114883640203981422, guid: fe457e9c7179662438deaddfb6bbc3c8,
+    type: 2}
+  score: {fileID: 0}
+  pause: {fileID: 0}
+  constants: {fileID: 114426559993829980}
+  playerManager: {fileID: 114828215867735362, guid: c131acdb3cfbb774b893e82c2957f754,
+    type: 2}
+  isPaused: 0

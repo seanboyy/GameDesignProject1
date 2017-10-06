@@ -1,0 +1,9 @@
+/obj/
+/Temp/
+/ProjectSettings/
+/Library/
+*.csproj
+*.sln
+*meta
+/.vs/
+/scenes/
