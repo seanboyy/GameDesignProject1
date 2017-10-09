@@ -17,7 +17,8 @@ public class ScoreText : MonoBehaviour {
 		
 	}
 
-    public void SetText(int score){
-        text.text = "YOU HAVE DIED\nSCORE: " + score.ToString();
+    public void SetText(int score, bool mode){
+        if (!mode) text.text = "YOU HAVE DIED\nSCORE: " + score.ToString();
+        if (mode) text.text = "YOU WIN\nSCORE: " + score.ToString();
     }
 }

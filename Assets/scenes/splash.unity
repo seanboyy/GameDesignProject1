@@ -380,6 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3fc66daa3a115046b5d37582267f79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: d02edfaac8c578a448540d140e9d2d25, type: 3}
 --- !u!1 &1648351829
 GameObject:
   m_ObjectHideFlags: 0

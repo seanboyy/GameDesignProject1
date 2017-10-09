@@ -791,11 +791,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64b5f3b9ae3fb0843a6cd583ea5ecdf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseCamera: {fileID: 0}
-  pauseCameraCamera: {fileID: 0}
-  mainCamera: {fileID: 20859682699587574}
-  pauseCameraScript: {fileID: 0}
+  end: {fileID: 0}
   audioSource: {fileID: 82074924796203820}
+  launcher: {fileID: 0}
   buttonNear: {fileID: 0}
   hurtSound: {fileID: 8300000, guid: ef87ae6d647703c4fb7b757ba938c1b6, type: 3}
   healthBar:
@@ -923,7 +921,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

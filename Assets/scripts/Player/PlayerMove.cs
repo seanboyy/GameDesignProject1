@@ -148,7 +148,7 @@ public class PlayerMove : MonoBehaviour{
         //check if on floor. if so, set movement z to be 0
         else if (isOnFloor && jumping && falling){
             //make sure the sprite is on the floor (relative to where the shadow is)
-            if (characterRenderer.gameObject.transform.position.y != shadowRenderer.gameObject.transform.position.y) characterRenderer.gameObject.transform.position = new Vector3(characterRenderer.gameObject.transform.position.x, shadowRenderer.gameObject.transform.position.y + 1.6224F, characterRenderer.gameObject.transform.position.z);
+            if (characterRenderer.gameObject.transform.position.y != shadowRenderer.gameObject.transform.position.y) characterRenderer.gameObject.transform.position = new Vector3(characterRenderer.gameObject.transform.position.x, shadowRenderer.gameObject.transform.position.y + 1.6424F, characterRenderer.gameObject.transform.position.z);
             movement.z = 0;
             jumping = false;
             falling = false;

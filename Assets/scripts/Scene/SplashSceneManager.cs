@@ -7,11 +7,12 @@ public class SplashSceneManager : MonoBehaviour {
 
     float counter = 0;
     private float endSplash = 1.5F;
-
-    // Use this for initialization
+    public Texture cursorTexture;
+    
+    // Use this for initializati+on
     void Start () {
-		
-	}
+        Cursor.SetCursor(cursorTexture as Texture2D, Vector2.zero, CursorMode.Auto);
+    }
 	
 	// Update is called once per frame
 	void Update () {
